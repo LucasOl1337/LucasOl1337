@@ -1,14 +1,23 @@
 ### Hi, I'm Lucas 👋
 
-**Software engineer who builds products and tools with AI agents**, based in São Paulo, Brazil.
+**AI engineer. I build products and tools with AI agents.** São Paulo, Brazil.
 
-Two kinds of work, one method. At NexUnio I ship production software for clients. In public I ship the tools I need to work with several agents at once. In both, I write the brief, split the work, run builders and reviewers as separate agents (Codex, Claude Code, Grok, Hermes), and own the product decisions, integration, testing and final result.
+I am not a traditional developer and I don't try to be one. My job is to define the problem, write the brief, split the work, run builders and reviewers as separate agents (Codex, Claude Code, Grok, Hermes) and own the product decisions, the integration, the tests and the final result. Every project below was built this way. Most of my public tooling exists so I can run more of that at once.
+
+#### 📈 Volume, from my own logs
+
+- **11,099 GitHub contributions** in the last year (as of September 11, 2026), most of them in private repositories. Current streak: 82 days.
+- **~3.8 billion tokens** processed between September 4 and 11, 2026, in Codex and Claude Code alone: about 2.77B in Codex and 1.02B in Claude Code, 15M of them generated output. Grok CLI, Cursor and Pi run on top of that and are not counted here.
+- **3,800+ agent conversations and 244k messages** in the last 33 days, read by DailyWork from the local session files of every harness I use.
+
+These are activity numbers, not quality numbers. The quality is in the releases below.
 
 #### 🧰 Tools for working with AI agents
 
 - **[RamDog](https://github.com/LucasOl1337/RamDog)** — process manager for Windows, Linux and macOS, in Rust. Groups processes by the app that started them, shows origin and categories, tree kill and locks. [v0.9.0](https://github.com/LucasOl1337/RamDog/releases/tag/v0.9.0) ships packages for all three systems.
 - **[KamuiT](https://github.com/LucasOl1337/kamuit)** — native terminal workspace for AI agents (Grok, Claude, Codex, Pi): Windows Terminal core on Windows, GTK4 + VTE on Linux, with CLI, IPC and MCP so agents can open their own tabs.
 - **[Estúdio](https://github.com/LucasOl1337/estudio)** — Rust window over an image-generation pipeline: references, use cases, Codex or Grok batches, live progress and previous results in one place.
+- **DailyWork** (private) — Electron app that reads every agent session on this machine, writes my daily summary, runs an editorial queue with evidence checks and produces the numbers above. Its public face is [lucas-ol.com](https://lucas-ol.com).
 - **[The Last Arrow](https://github.com/LucasOl1337/The-Last-Arrow)** — Unity/C# arena where external LLM agents receive game state and act through a Python broker, with persistent bot profiles and observability overlays.
 - **[ChessCam](https://github.com/LucasOl1337/ChessCam)** — real-time multiplayer chess: WebSocket netcode, server-validated moves, reconnect handling and match review. A model timeout pauses the match instead of inventing a move.
 
@@ -23,8 +32,9 @@ I moved my daily setup to Omarchy (Arch + Hyprland) in September 2026 and starte
 
 #### 🏢 Production work at NexUnio
 
+- **NexSales** — AI attendants on WhatsApp for clinics and stores: agent prompts, judged test sets (Claude Fable vs GPT on the same conversations), versioned rules and human handoff. Real appointments booked in production.
 - **NexARQ** — multi-tenant SaaS for architecture firms: web, mobile, REST API, RBAC, integrations, applied AI and continuous releases.
-- **NexSales** — WhatsApp attendants for clinics and stores: agent prompts, judged test sets, versioned rules and human handoff.
+- **SFR Resgate Digital** — offline-first React Native/Expo app for pre-hospital rescue teams: clinical forms, burn map, local persistence and sync recovery, updated over the air on a real fleet.
 - **LojaSync** — React + FastAPI automation over a legacy ERP that reads Brazilian NF-e invoices and PDFs with a human review step, saving 65+ hours of manual work per month (local operational metrics). Private repository; happy to walk through it.
 
 #### 🛠️ Stack
@@ -32,10 +42,10 @@ I moved my daily setup to Omarchy (Arch + Hyprland) in September 2026 and starte
 `Rust` · `TypeScript / React / Next.js` · `Python / FastAPI` · `C# (Unity · .NET · GTK)` · `Electron` · `PostgreSQL` · `Cloudflare` · `Vercel`
 Agents: `Codex` · `Claude Code` · `Grok` · `Hermes` · multi-provider routing with 9router
 
-10,450 contributions in the last year as of September 2026, most of them in private repositories. Studying Artificial Intelligence at FIAP (2026–2027).
+Studying Artificial Intelligence at FIAP (2026–2027).
 
 #### 📫 Reach me
 
 - 💼 **[LinkedIn](https://www.linkedin.com/in/lucasoliveiradevai)**
-- 🌐 **[lucasol.cc](https://lucasol.cc)** — OL.GG, a live profile fed by my daily work logs
-- Portuguese native · English advanced · Open to **remote** contract or full-time work on AI agents, developer tools and production SaaS.
+- 🌐 **[lucas-ol.com](https://lucas-ol.com)** — live profile fed by my daily work logs
+- Portuguese native · English advanced · Open to **remote** contract or full-time work as an AI engineer: agents in production, developer tools and SaaS.
